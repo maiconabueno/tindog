@@ -42,7 +42,6 @@ p {
   transform: rotate(25deg);
   position: absolute;
   right: 23%;
-
 }
 
 
@@ -139,4 +138,50 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1300px) {
+  .site-photo {
+    width: 70%;
+    transform: rotate(0);
+    position: static;
+    /* right: 23%; */
+  }
+}
+
+@media (max-width: 1000px) {
+  .site-photo {
+    padding-top: 2rem;
+    width: 50%;
+    transform: rotate(0);
+    position: static;
+    /* right: 23%; */
+  }
+  .phone-img {
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Footer */
+.foot {
+  padding: 3rem 0 1rem;
+  background-color: #ef8172;
+}
+
+#cta {
+  text-align: center;
+}
+
+.copyright {
+  padding-top: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.spacing-ft {
+  padding-bottom: 1rem;
 }
