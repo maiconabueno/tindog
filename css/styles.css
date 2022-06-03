@@ -3,6 +3,15 @@ body {
   text-align: center;
 }
 
+.colored-section {
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* Title */
 
 .section-heading {
@@ -10,7 +19,6 @@ body {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
-  text-align: left;
 }
 
 .heading3 {
@@ -25,6 +33,10 @@ p {
 
 .container-fluid {
   padding: 3% 15% 7%;
+}
+
+.align-left {
+  text-align: left;
 }
 
 /* Image */
@@ -63,9 +75,14 @@ p {
   }
 }
 
-/* Buttons top*/
+/* Buttons*/
 
-.spacing {
+.button-top {
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.button-btm {
   margin-right: 1rem;
   margin-bottom: 2rem;
 }
@@ -90,17 +107,9 @@ p {
   font-size: 1.2rem;
 }
 
-/* Title */
-
-#title {
-  background-color: #FF4C68;
-  color: #fff;
-}
-
 /* Features */
 #features {
   padding: 5% 15%;
-  background-color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -122,13 +131,14 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-heading {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 800;
+  width: 60%;
+  margin: 0px auto;
 }
 
 .testimonial-img {
@@ -182,6 +192,7 @@ p {
 #cta {
   background-color: #ef8172;
   padding: 3rem 0 1rem;
+  color: #fff;
 }
 
 .copyright {
@@ -191,7 +202,6 @@ p {
 
 .spacing-ft {
   padding-bottom: 1rem;
-  color: #fff;
   font-family: "Montserrat";
   font-size: 2rem;
   font-weight: 900;
